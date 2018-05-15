@@ -23,7 +23,7 @@ momentum: 0.9
 weight_decay: 1e-4
 snapshot: 100000
 snapshot_prefix: "examples/superconvergence/snapshots/lr35Fig1a"
-solver_mode: GPU
+solver_mode: CPU
 stepvalue: 50000
 stepvalue: 70000
 #type:  "Adam" #  "AdaDelta"  # "AdaGrad"  # "Nesterov" # "RMSProp" #
